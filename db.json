@@ -1,0 +1,6 @@
+{
+  "tickets": [
+    { "id": 1, "title": "Ticket_Ex", "submittedBy": "Curtis Williams-Foshee", "dateSubmitted": "2018-07-21 13:08:00", "lastUpdated": "2018-07-21 13:10:34", "status": "pending" },
+    { "id": 2, "title": "Ticket_Ex2", "submittedBy": "Tony Steffaneli", "dateSubmitted": "2018-08-01 10:08:00", "lastUpdated": "2018-07-21 13:10:34", "status": "closed" }
+  ]
+}
