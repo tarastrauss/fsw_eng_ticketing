@@ -63,11 +63,8 @@ class TicketList extends Component {
                 	</div>
                     <div>
                         {tickets.map(ticket => (
-                            <div key={ticket.id}>
-                                <Ticket title={ticket.title} submittedBy={ticket.submittedBy} dateSubmitted={ticket.dateSubmitted} lastUpdated={ticket.lastUpdated} status={ticket.status}>
-                                    
-                                </Ticket>
-                            </div> 
+                            <Ticket key={ticket.id} id={ticket.id} title={ticket.title} submittedBy={ticket.submittedBy} dateSubmitted={ticket.dateSubmitted} lastUpdated={ticket.lastUpdated} status={ticket.status}>
+                            </Ticket>
                         ))}
                     </div>
                 </div>
