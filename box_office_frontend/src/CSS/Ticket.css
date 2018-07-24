@@ -1,0 +1,10 @@
+.ticket {
+	margin: 1px 40px 1px 40px;
+	/*float: left;*/
+	width: 600px;
+}
+
+.ticketdiv {
+	width: 100%;
+	display: flex;
+}
